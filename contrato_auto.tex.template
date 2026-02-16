@@ -1,0 +1,63 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazilian]{babel}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage[T1]{fontenc}
+
+\geometry{margin=2.5cm}
+\onehalfspacing
+
+\titleformat{\section}{\bfseries\large}{CLÁUSULA \thesection}{1em}{}
+
+\begin{document}
+
+\begin{center}
+\textbf{\Large CONTRATO PARTICULAR DE COMPRA E VENDA DE IMÓVEL}
+\end{center}
+
+\vspace{1cm}
+
+\textbf{VENDEDOR:} ${VENDEDOR}
+
+\textbf{COMPRADOR:} ${COMPRADOR}
+
+\section{DO OBJETO}
+
+O presente contrato tem por objeto o imóvel do tipo ${IMOVEL_TIPO}, situado à ${ENDERECO}, com área total de ${METRAGEM}, matriculado sob nº ${MATRICULA} no ${CARTORIO}, inscrito no cadastro municipal sob nº ${INSCRICAO_MUNICIPAL}.
+
+\section{DO PREÇO}
+
+Valor total: ${VALOR_TOTAL_EXTENSO} (R\$ ${VALOR_TOTAL_NUM}).
+
+Sinal: R\$ ${SINAL}
+
+Parcelado em ${PARCELAS} parcelas de R\$ ${VALOR_PARCELA}, iniciando em ${DATA_PRIMEIRA_PARCELA}.
+
+\section{DA POSSE}
+
+Foro de ${FORO}.
+
+\section{DOS ENCARGOS}
+
+Correrão por conta do \textbf{COMPRADOR} todos os impostos assim como despesas com escritura definitiva que será passada em momento oportuno.
+
+\vspace{1cm}
+
+${CIDADE}, ${DATA_CONTRATO}.
+
+\vspace{2cm}
+
+\rule{7cm}{0.4pt} \\
+VENDEDOR
+
+\vspace{2cm}
+
+\rule{7cm}{0.4pt} \\
+COMPRADOR
+
+\end{document}
