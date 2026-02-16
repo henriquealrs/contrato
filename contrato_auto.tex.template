@@ -53,11 +53,15 @@ ${CIDADE}, ${DATA_CONTRATO}.
 \vspace{2cm}
 
 \rule{7cm}{0.4pt} \\
-VENDEDOR
+\textbf{VENDEDOR:} ${VENDEDOR_ASSINATURA_NOME} \\
+\textbf{CPF:} ${VENDEDOR_ASSINATURA_CPF} \\
+\textbf{Representado por procuração:} ${VENDEDOR_REPRESENTANTE} \\
+\textbf{CPF do representante:} ${VENDEDOR_REPRESENTANTE_CPF}
 
 \vspace{2cm}
 
 \rule{7cm}{0.4pt} \\
-COMPRADOR
+\textbf{COMPRADOR:} ${COMPRADOR_ASSINATURA_NOME} \\
+\textbf{CPF:} ${COMPRADOR_ASSINATURA_CPF}
 
 \end{document}
