@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper]{article}
+\documentclass[10pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[brazilian]{babel}
@@ -20,7 +20,7 @@
 \textbf{\Large CONTRATO PARTICULAR DE COMPRA E VENDA DE IMÓVEL}
 \end{center}
 
-\vspace{1cm}
+\vspace{0.6cm}
 
 \textbf{VENDEDOR:} ${VENDEDOR}
 
@@ -52,16 +52,22 @@ ${CIDADE}, ${DATA_CONTRATO}.
 
 \vspace{2cm}
 
-\rule{7cm}{0.4pt} \\
+\noindent
+\rule{7cm}{0.6pt} \\
+{\small
 \textbf{VENDEDOR:} ${VENDEDOR_ASSINATURA_NOME} \\
 \textbf{CPF:} ${VENDEDOR_ASSINATURA_CPF} \\
-\textbf{Representado por procuração:} ${VENDEDOR_REPRESENTANTE} \\
-\textbf{CPF do representante:} ${VENDEDOR_REPRESENTANTE_CPF}
+\textbf{Representante por procuração:} ${VENDEDOR_REPRESENTANTE} \\
+\textbf{CPF do representante:} ${VENDEDOR_REPRESENTANTE_CPF} \\
+}
 
-\vspace{2cm}
+\vspace{1.2em}
 
-\rule{7cm}{0.4pt} \\
+\noindent
+\rule{7cm}{0.6pt} \\
+{\small
 \textbf{COMPRADOR:} ${COMPRADOR_ASSINATURA_NOME} \\
 \textbf{CPF:} ${COMPRADOR_ASSINATURA_CPF}
+}
 
 \end{document}
